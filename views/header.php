@@ -13,11 +13,12 @@
 </head>
 <body>
 <?php Session::init(); ?>
+
+
 <div id="header">
     header
     <a href="<?=URL ?>index">Index</a>
     <a href="<?=URL ?>help">Help</a>
-
     <?php if(Session::get('loggedIn') == true): ?>
         <a href="<?=URL ?>dashboard/logout">Logout</a>
     <?php else: ?>
@@ -25,6 +26,7 @@
     <?php endif; ?>
 
 
+    <a href="<?=URL ?>login">Login</a>
 </div>
 
 <div id="content">

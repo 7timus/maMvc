@@ -9,6 +9,7 @@ class Login_Model extends Model {
 
   public function run()
     {
+
       $sth = $this->db->prepare("SELECT id FROM users WHERE
                                     login=:login AND password=MD5(:password)");
       $sth->execute(array(
@@ -27,6 +28,17 @@ class Login_Model extends Model {
         //show an error
         header('location:../login');
       }
+
+        $ssth = $this->db->prepare("SELECT id FROM users WHERE
+                    login = :login ");
+      $ssth->execute(array(
+            ':login' => $_POST['login']
+           // ':password'=>$_POST['password']
+      ));
+
+      $data = $ssth->fetchAll();
+      print_r($data);
+
     }
 
 }

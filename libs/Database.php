@@ -1,6 +1,7 @@
 <?php
 class Database extends PDO {
 
+
  /*private $host = "us-cdbr-azure-southcentral-e.cloudapp.net";
  private $user = "b9429167a53588";
  private $pwd = "3683c461";
@@ -13,6 +14,10 @@ class Database extends PDO {
         catch(Exception $e){
             die(print_r("No konekshun : ".$e));
         }
+
+    public function __construct() {
+        parent::__construct('mysql:host=localhost;dbname=mvc_tut','root','');
+
     }
 
     
