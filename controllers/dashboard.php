@@ -11,6 +11,8 @@ class Dashboard extends Controller {
             header('location:login');
             exit;
         }
+        // CUSTOM SEPERATE CONTROLLER JS
+        $this->view->js = array('dashboard/js/default.js');
 
     }
     function index()
