@@ -9,15 +9,24 @@ class Login_Model extends Model {
 
   public function run()
     {
-        $ssth = $this->db->prepare("SELECT id FROM users WHERE
-                    login = :login ");
-      $ssth->execute(array(
-            ':login' => $_POST['login']
-           // ':password'=>$_POST['password']
+      $sth = $this->db->prepare("SELECT id FROM users WHERE
+                                    login=:login AND password=MD5(:password)");
+      $sth->execute(array(
+           ':login' => $_POST['login'],
+           ':password'=>$_POST['password']
       ));
 
-      $data = $ssth->fetchAll();
-      print_r($data);
+      //$data = $sth->fetchAll();
+      $count =  $sth->rowCount();
+      if($count > 0) {
+        //login
+        Session::init();
+        Session::set('loggedIn',true);
+        header('location:../dashboard');
+      } else {
+        //show an error
+        header('location:../login');
+      }
     }
 
 }
