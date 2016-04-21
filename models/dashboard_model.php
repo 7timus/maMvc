@@ -3,9 +3,23 @@ class Dashboard_Model extends Model {
 
     function __construct()
     {
+        parent::__construct();
     }
 
     function xhrInsert() {
-       echo $_POST['text'];
+            $text =$_POST['text'];
+        $sth= $this->db->prepare('INSERT INTO data (text) VALUES (:text)');
+        $sth->execute(array(':text' => $text));
     }
+
+
+    function xhrGetListings()
+    {
+        $sth = $this->db->prepare('SELECT * FROM data');
+        $sth->setFetchMode(PDO::FETCH_ASSOC);
+        $sth->execute();
+        $result = $sth->fetchAll();
+        print_r(json_encode($result));
+    }
+ 
 }
