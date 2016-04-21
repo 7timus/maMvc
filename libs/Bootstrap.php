@@ -6,7 +6,7 @@ class Bootstrap {
 
         $url = isset($_GET['url']) ? $_GET['url'] : null;  // trim slashes and explodes url
         $url = rtrim($url, '/');
-        $url = explode('/', $url);
+        $url = explode('/',$url);
         print_r($url);
 // IF NO URL - DEFAULT INDEX
         if (empty($url[0])) {
@@ -18,13 +18,15 @@ class Bootstrap {
 
         // SETTING CONTROLLER IF EXISTS
 
-        $file = "controllers/" . $url[0] . ".php";
+        $file = "controllers/" .$url[0].".php";
+     
         if (file_exists($file)) {
             require $file;
         } else {
             $this::error();
             return false;
         }
+
         $controller = new $url[0];
         $controller->loadModel($url[0]);
 

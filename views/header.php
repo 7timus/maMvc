@@ -23,7 +23,6 @@
 
 
 <div id="header">
-    header
     <a href="<?=URL ?>index">Index</a>
     <a href="<?=URL ?>help">Help</a>
     <?php if(Session::get('loggedIn') == true): ?>
