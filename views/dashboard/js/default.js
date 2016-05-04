@@ -1,32 +1,32 @@
 $(function() {
 
 $.get('dashboard/xhrGetListings',function(o) {
-    console.log('PUSSEJ');
-    console.log(o[0].text);
+    for(var i= 0; i < o.length;i++){
+        $('#listInserts').append('<div>'+o[i].text+'<a class="del" rel="'+o[i].id+'" href="#">X</a></div></div>');
+    }
+
+    $('.del').click(function() {
+        delItem =$(this);
+        var id = $(this).attr('rel');
+        $.post('dashboard/xhrDeleteListing',{'id':id},function(o) {
+            delItem.parent().remove();
+        })
+        return false;
+    });
+},'json');
 
 
-    [   {"id":"1","text":"w"},
-        {"id":"11","text":"w"},
-        {"id":"21","text":"k"},
-         {"id":"31","text":"k"}
-    ]
-
-
-   // $('$listInserts');
-}, 'json');
-
-
-
-$('#randomInsert').submit(function(){
-     var url = $(this).attr('action')
-    var data = $(this).serialize();
-
+ $('#randomInsert').submit(function(){
+     var url = $(this).attr('action');
+     var data = $(this).serialize();
 
     $.post(url,data,function(o) {
-        alert('SUBMITED')
-    })
-});
+        $('#listInserts').append('<div>'+ o +'<a class="del" rel="'+ o.id +'" href="#">X</a></div>');
+        console.log(o);
+    });
 
+     return false;
+},'json');
 
 
 });

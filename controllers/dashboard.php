@@ -27,8 +27,9 @@ class Dashboard extends Controller {
         exit;
     }
 
-    function xhrInsert(){
-    
+    function xhrInsert()
+    {
+
         $this->model->xhrInsert();
 
     }
@@ -37,4 +38,12 @@ class Dashboard extends Controller {
     {
         $this->model->xhrGetListings();
     }
+
+    function xhrDeleteListing()
+    {
+        $this->model->xhrDeleteListing();
+    }
 }
+
+
+

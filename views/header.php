@@ -7,7 +7,6 @@
     <title>DEFAULTAIS HEDERIS</title>
     <link rel="stylesheet" href="<?=URL ?>public/css/default.css">
     <script src="<?=URL ?>public/js/jquery.js"></script>
-    <script src="<?=URL ?>public/js/custom.js"></script>
 <?php if(isset($this->js))
 {
     foreach($this->js as $js) {

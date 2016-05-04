@@ -7,7 +7,6 @@ class Bootstrap {
         $url = isset($_GET['url']) ? $_GET['url'] : null;  // trim slashes and explodes url
         $url = rtrim($url, '/');
         $url = explode('/',$url);
-        print_r($url);
 // IF NO URL - DEFAULT INDEX
         if (empty($url[0])) {
             require "controllers/index.php";
@@ -52,6 +51,7 @@ class Bootstrap {
             }
         }
     }
+
  private static function error() {
      require "controllers/error.php";
      $controller = new Error();
