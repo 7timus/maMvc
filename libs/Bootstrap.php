@@ -8,11 +8,20 @@ class Bootstrap {
         $url = rtrim($url, '/');
         $url = explode('/',$url);
 // IF NO URL - DEFAULT INDEX
+
+        // skola
+        if(($url[0])=='skola'){
+            require "controllers/skola.php";
+            $controller = new skola;
+            return false;
+        }
+        // skola bveidsD
+
         if (empty($url[0])) {
             require "controllers/index.php";
             $controller = new Index();
             $controller->index();
-            return false;
+           return false;
         }
 
         // SETTING CONTROLLER IF EXISTS
@@ -25,10 +34,11 @@ class Bootstrap {
             $this::error();
             return false;
         }
-
+      
         $controller = new $url[0];
+        if(method_exists($controller,'loadModel')){
         $controller->loadModel($url[0]);
-
+        }
 
         // CALLING METHODS
         if (isset($url[2])) {
