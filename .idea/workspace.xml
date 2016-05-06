@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddd0c837-1db7-4c1b-a0c8-05c9ff5fa7e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/skola.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/Bootstrap.php" afterPath="$PROJECT_DIR$/libs/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/skola.php" afterPath="$PROJECT_DIR$/controllers/skola.php" />
     </list>
     <ignored path="maMvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,41 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/style.css">
+        <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="398">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/script.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bootstrap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/Bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="494">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,11 +82,14 @@
         <option value="$PROJECT_DIR$/controllers/dashboard.php" />
         <option value="$PROJECT_DIR$/models/dashboard_model.php" />
         <option value="$PROJECT_DIR$/views/dashboard/js/default.js" />
-        <option value="$PROJECT_DIR$/controllers/skola.php" />
         <option value="$PROJECT_DIR$/libs/Bootstrap.php" />
         <option value="$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/index.html" />
         <option value="$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/script.js" />
         <option value="$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/style.css" />
+        <option value="$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/script.js" />
+        <option value="$PROJECT_DIR$/controllers/skola.php" />
+        <option value="$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/index.html" />
+        <option value="$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/style.css" />
       </list>
     </option>
   </component>
@@ -215,7 +196,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="XYZ_SKOLA" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9_uzd_Jscript" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maMvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maMvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,6 +249,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\maMvc\XYZ_SKOLA\9_uzd_Jscript" />
       <recent name="C:\wamp\www\maMvc\XYZ_SKOLA\10_uzd_JSCRIP_CALC" />
       <recent name="C:\wamp\www\maMvc\views\dashboard" />
       <recent name="C:\wamp\www\maMvc" />
@@ -309,7 +309,7 @@
       <workItem from="1462467881368" duration="880000" />
       <workItem from="1462468858402" duration="160000" />
       <workItem from="1462469073638" duration="716000" />
-      <workItem from="1462469844677" duration="11450000" />
+      <workItem from="1462469844677" duration="16975000" />
     </task>
     <task id="LOCAL-00001" summary="DB">
       <created>1461171665038</created>
@@ -374,11 +374,25 @@
       <option name="project" value="LOCAL" />
       <updated>1462392010211</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4CHAP finish - + skola">
+      <created>1462518058050</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1462518058050</updated>
+    </task>
+    <task id="LOCAL-00011" summary="4CHAP finish - + skola">
+      <created>1462518079286</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1462518079286</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54566000" />
+    <option name="totallyTimeSpent" value="60091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="334" y="172" width="1402" height="828" extended-state="0" />
@@ -386,6 +400,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14862914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31019202" sideWeight="0.49370077" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12831241" sideWeight="0.5062992" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -393,7 +408,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31019202" sideWeight="0.49370077" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -423,34 +437,14 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/7timus/maMvc&#10;&#10;# Conflicts:&#10;#&#9;config/database.php&#10;#&#9;config/paths.php&#10;#&#9;index.php&#10;#&#9;libs/Database.php&#10;#&#9;libs/Model.php&#10;#&#9;models/login_model.php&#10;#&#9;views/header.php&#10;" />
     <MESSAGE value="WORKIGN VERSION" />
     <MESSAGE value="4CHAP - nepabeigts" />
-    <option name="LAST_COMMIT_MESSAGE" value="4CHAP - nepabeigts" />
+    <MESSAGE value="4CHAP finish - + skola" />
+    <option name="LAST_COMMIT_MESSAGE" value="4CHAP finish - + skola" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/skola.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/paths.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -732,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/skola.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/Session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -771,10 +758,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/Bootstrap.php">
+    <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/skola.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -787,10 +790,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/10_uzd_JSCRIP_CALC/style.css">
+    <entry file="file://$PROJECT_DIR$/libs/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZ_SKOLA/9_uzd_Jscript/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
