@@ -9,18 +9,18 @@
 <body>
 
 <div class="wrapper">
-   <form>
-        <label for="vards"> Vārds:</label>
-        <input type="text" id="vards">
+   <form name="form">
+        <label for="vards"> Vārds *:</label>
+        <input type="text" id="vards" name="vards">
 
-        <label for="uzvards"> Uzvārds:</label>
-        <input type="text" id="uzvards">
+        <label for="uzvards"> Uzvārds *:</label>
+        <input type="text" id="uzvards" name="uzvards">
 
-        <label for="epasts"> E-pasts:</label>
-        <input type="text" id="epasts">
+        <label for="epasts"> E-pasts *:</label>
+        <input type="text" id="epasts" name="epasts">
 
-        <label for="vecums"> Vecums:</label>
-        <select id="vecums" >
+        <label for="vecums"> Vecums *:</label>
+        <select id="vecums" name="vecums">
             <option value="22">22</option>
             <option value="18">18</option>
             <option value="16">16</option>
@@ -29,14 +29,14 @@
 
 
         <label for="komentars"> Komentars:</label>
-        <textarea id="komentars"></textarea>
+        <textarea id="komentars" name="komentars"></textarea>
         <label for="piekritu"> Piekritu noteikumiem :</label>
-        <input type="checkbox" id="piekritu">
+        <input type="checkbox"  name="piekritu" id="piekritu">
 
        <div class="pogas">
-           <button>Atcelt</button>
-           <button>Saglabāt</button>
-           <button>Parādīt</button>
+           <button id="atcelt">Atcelt</button>
+           <button id="saglabat">Saglabāt</button>
+           <button id="paradit">Parādīt</button>
        </div>
 
 
