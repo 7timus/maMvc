@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    margin:auto;
+    width: 1200px;
+    height:800px;
+    background:gray;
+}
+.pogas{
+    margin-top:20px;
+}
+button {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    width:30%;
+    height:20px;
+}
+.wrapper{
+    padding-top:20px;
+    border-radius:15px;
+    margin:auto;
+    width:50%;
+    height:60%;
+    background:lightgray;
+}
+form{
+    margin:auto;
+    width:50%;
+    height:100%;
+}
+form label{
+    margin-left:-40px;
+    font-weight:bold;
+}
+input[type=text]:focus,  #vecums:focus, textarea:focus {
+    border: 3px solid #555;
+}
+input[type=text] , #vecums , textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.error[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
