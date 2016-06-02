@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    margin:auto;
+    width: 1200px;
+    height:800px;
+    background:gray;
+}
+button {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    width:30%;
+    height:20px;
+}
+
+
+
+
+
+.container {
+    margin:auto;
+    background:yellow;
+    width: 730px;
+}
+.container{
+    float: left;
+    padding-top: 20px;
+    overflow: hidden;
+
+}
