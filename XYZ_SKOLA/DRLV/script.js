@@ -1,19 +1,29 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+    var varianti = [];
+    var i;
+    var temp = {};
+    var old;
 
-    var vards = form.vards.value;
-    var uzvards = form.uzvards.value;
-    var epasts = form.epasts.value;
-    var vecums = form.vecums.value;
-    var komentars = form.komentars.value;
-    var piekritu = form.piekritu.value;
+    varianti = document.getElementsByClassName('variants');
+    console.log('IET');
+    console.log(varianti.length);
 
-    document.getElementById('paradit').setAttribute('onchange','attirit();');
+// SALIEKU VISIEM  variantiem funkciju
+   
+    
+    for (i = 0; i != varianti.length; i++) {
+      console.log(typeof(varianti[i]));
+        varianti[i].addEventListener("click", function(){mark(this)});
+    }
 
+    function mark (obj) {
+        temp.className = old;
+        old = obj.className;
+        temp = obj;
+            alert("temp added");
+             obj.innerHTML = "Clicked";
 
+    }
 
 });
 
-function attirit() {
-
-    alert(tests);
-}
