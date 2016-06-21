@@ -8,7 +8,7 @@ a{
     outline: none;
 }
 body {
-    margin:auto;
+   margin:auto;
     width: 1200px;
     height:800px;
     background:gray;
@@ -35,12 +35,11 @@ a.variants:hover{
     background:#e7e7dd;
     width: 800px;
     float: left;
-    padding: 10px;
     overflow: hidden;
     text-align:center;
 }
 .count{
-    margin-top:30px;
+    margin:30px 0;
     display:block;
 
 }
@@ -48,19 +47,23 @@ a.variants:hover{
     float:left;
     clear:both;
     width:100%;
-    background:blue;
 }
 .jautajums {
+    display:inline-block;
     color:#4b166e;
-    font-weight: 800;
-    font-size: 14px;
+    font-weight: lighter;
+    font-size: 22px;
     text-align: center;
-    margin:20px;
-
+    margin:35px;
+}
+a.logo {
+    display:block;
+    margin-left:20px;
+    background-image: url("logo.png");
+    width:178px;
+    height:81px;
 }
 .atbildes {
-    background:red;
-
 }
 .footer {
     clear:both;
@@ -71,6 +74,13 @@ a.variants:hover{
 #nakamais{
     background-color:#4b166e;
     color:#f6b80d;
+    display: inline-block;
+    width: 300px;
+    padding: 15px 1px;
+    margin: 8px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
 }
 #nakamais:hover{
     background-color:#85b140;
